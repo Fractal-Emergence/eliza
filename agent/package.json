@@ -8,6 +8,7 @@
     "dev": "node --loader ts-node/esm src/index.ts",
     "check-types": "tsc --noEmit"
   },
+  "workspaces": ["packages/*"],
   "nodemonConfig": {
     "watch": [
       "src",
