@@ -69,7 +69,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import yargs from "yargs";
-import { mainCharacter } from '../mainCharater';
+// import { mainCharacter } from '../mainCharater';
 import net from "net";
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
